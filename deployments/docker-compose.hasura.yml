@@ -1,0 +1,55 @@
+# Local Postgres + Hasura for dev. Not shipped upstream (see README Roadmap:
+# "One-command Docker Compose that includes Postgres + Hasura" is still open) —
+# added locally so the full stack has a HASURA_URL / HASURA_ADMIN_SECRET to boot
+# against. Same project name / network as the other compose files so all three
+# merge into one stack:
+#
+#   docker compose \
+#     -f deployments/docker-compose.fabric.yml \
+#     -f deployments/docker-compose.agentic-framework.yml \
+#     -f deployments/docker-compose.hasura.yml up
+name: hospilot-oss
+
+services:
+
+  hasura-postgres:
+    image: postgres:15-alpine
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: hospilot
+      POSTGRES_PASSWORD: hospilot
+      POSTGRES_DB: hospilot
+    volumes:
+      - hasura_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hospilot"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    networks:
+      - hospilot-oss-net
+
+  hasura:
+    image: hasura/graphql-engine:v2.36.0
+    ports:
+      - "8080:8080"
+    environment:
+      HASURA_GRAPHQL_DATABASE_URL: postgres://hospilot:hospilot@hasura-postgres:5432/hospilot
+      HASURA_GRAPHQL_ENABLE_CONSOLE: "true"
+      HASURA_GRAPHQL_DEV_MODE: "true"
+      HASURA_GRAPHQL_ADMIN_SECRET: hospilot-dev-secret
+    depends_on:
+      hasura-postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - hospilot-oss-net
+
+networks:
+  hospilot-oss-net:
+    name: hospilot-oss-net
+
+volumes:
+  hasura_pgdata:

@@ -1,0 +1,426 @@
+{
+    "version": 3,
+    "sources": [
+        {
+            "name": "default",
+            "kind": "postgres",
+            "tables": [
+                {
+                    "table": {
+                        "name": "agent_budget",
+                        "schema": "allocation"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "auction",
+                        "schema": "allocation"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "auction_bid",
+                        "schema": "allocation"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "auction_outcome",
+                        "schema": "allocation"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "forecast_history",
+                        "schema": "allocation"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "pending_observation",
+                        "schema": "allocation"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "utility_snapshot",
+                        "schema": "allocation"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "appointments",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "beds",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "checkpoint_blobs",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "checkpoint_migrations",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "checkpoint_writes",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "checkpoints",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "claim_history",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "claim_line_items",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "claim_queries",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "claims",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "contract_service_rates",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "daily_collections",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "departments",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "discharge_summaries",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "doctor_slots",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "hospilot_agent_registry",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "hospilot_subagent_registry",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "hospilot_task_registry",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "infection_cases",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "insurance_contracts",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "invoice_line_items",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "invoices",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "ipd_admissions",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "lab_critical_escalations",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "lab_orders",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "lab_results",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "nursing_tasks",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "ot_surgeries",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "patients",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "payment_entries",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "payment_reconciliation",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "payments",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "purchase_orders",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "refunds",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "service_slots",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "staff_roster",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "supplies",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "visits",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "vitals",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "waitlist",
+                        "schema": "hospilot"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "advisories",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "advisory_rules",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "agent_registry",
+                        "schema": "hospilot_app"
+                    },
+                    "array_relationships": [
+                        {
+                            "name": "subagent_registries",
+                            "using": {
+                                "foreign_key_constraint_on": {
+                                    "column": "agent_id",
+                                    "table": {
+                                        "name": "subagent_registry",
+                                        "schema": "hospilot_app"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "table": {
+                        "name": "approval_tasks",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "audit_log",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "organizations",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "rag_conversation",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "rag_memory",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "rag_message",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "scheduled_queries",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "session_agent_overrides",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "sessions",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "subagent_registry",
+                        "schema": "hospilot_app"
+                    },
+                    "array_relationships": [
+                        {
+                            "name": "task_registries",
+                            "using": {
+                                "foreign_key_constraint_on": {
+                                    "column": "subagent_id",
+                                    "table": {
+                                        "name": "task_registry",
+                                        "schema": "hospilot_app"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "table": {
+                        "name": "task_registry",
+                        "schema": "hospilot_app"
+                    }
+                },
+                {
+                    "table": {
+                        "name": "users",
+                        "schema": "hospilot_app"
+                    }
+                }
+            ],
+            "configuration": {
+                "connection_info": {
+                    "database_url": {
+                        "from_env": "HASURA_GRAPHQL_DATABASE_URL"
+                    },
+                    "isolation_level": "read-committed",
+                    "pool_settings": {
+                        "connection_lifetime": 600,
+                        "idle_timeout": 180,
+                        "max_connections": 50,
+                        "retries": 1
+                    },
+                    "use_prepared_statements": true
+                }
+            }
+        }
+    ]
+}

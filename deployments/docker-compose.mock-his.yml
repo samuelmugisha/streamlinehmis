@@ -1,0 +1,28 @@
+# Demo-only stub upstream HIS (see mock-his/README.md). Not part of Hospilot --
+# the real product never provisions the hospital system Fabric talks to. Same
+# project name / network as the other compose files so this merges into the
+# same stack:
+#
+#   docker compose \
+#     -f deployments/docker-compose.hasura.yml \
+#     -f deployments/docker-compose.fabric.yml \
+#     -f deployments/docker-compose.agentic-framework.yml \
+#     -f deployments/docker-compose.mock-his.yml up
+name: hospilot-oss
+
+services:
+
+  mock-his:
+    image: python:3.12-slim
+    working_dir: /app
+    volumes:
+      - ../mock-his:/app
+    command: python3 app.py
+    environment:
+      PORT: "9000"
+    networks:
+      - hospilot-oss-net
+
+networks:
+  hospilot-oss-net:
+    name: hospilot-oss-net

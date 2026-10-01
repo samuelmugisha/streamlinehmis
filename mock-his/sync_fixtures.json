@@ -1,0 +1,121 @@
+{
+  "admission": [
+    {
+      "id": "adm-bed-icu-02",
+      "patient_token": "pt-demo-001",
+      "bed_id": "bed-icu-02",
+      "department_id": null,
+      "admitted_at": "2026-09-09T14:52:54.857828+00:00",
+      "expected_discharge_at": null,
+      "status": "admitted",
+      "synced_at": "2026-09-09T20:52:54.858346+00:00",
+      "discharge_ready": null,
+      "discharge_blocked_reason": null,
+      "transfer_pending": false
+    },
+    {
+      "id": "adm-bed-icu-04",
+      "patient_token": "pt-demo-002",
+      "bed_id": "bed-icu-04",
+      "department_id": null,
+      "admitted_at": "2026-09-09T02:52:54.858396+00:00",
+      "expected_discharge_at": null,
+      "status": "admitted",
+      "synced_at": "2026-09-09T20:52:54.858403+00:00",
+      "discharge_ready": null,
+      "discharge_blocked_reason": null,
+      "transfer_pending": false
+    },
+    {
+      "id": "adm-bed-pcu-02",
+      "patient_token": "pt-demo-003",
+      "bed_id": "bed-pcu-02",
+      "department_id": null,
+      "admitted_at": "2026-09-08T14:52:54.858408+00:00",
+      "expected_discharge_at": null,
+      "status": "admitted",
+      "synced_at": "2026-09-09T20:52:54.858412+00:00",
+      "discharge_ready": null,
+      "discharge_blocked_reason": null,
+      "transfer_pending": false
+    },
+    {
+      "id": "adm-bed-er-02",
+      "patient_token": "pt-demo-004",
+      "bed_id": "bed-er-02",
+      "department_id": null,
+      "admitted_at": "2026-09-07T18:52:54.858420+00:00",
+      "expected_discharge_at": null,
+      "status": "admitted",
+      "synced_at": "2026-09-09T20:52:54.858423+00:00",
+      "discharge_ready": null,
+      "discharge_blocked_reason": null,
+      "transfer_pending": false
+    },
+    {
+      "id": "adm-bed-gen-02",
+      "patient_token": "pt-demo-005",
+      "bed_id": "bed-gen-02",
+      "department_id": null,
+      "admitted_at": "2026-09-06T20:52:54.858427+00:00",
+      "expected_discharge_at": null,
+      "status": "admitted",
+      "synced_at": "2026-09-09T20:52:54.858431+00:00",
+      "discharge_ready": null,
+      "discharge_blocked_reason": null,
+      "transfer_pending": false
+    },
+    {
+      "id": "adm-bed-gen-04",
+      "patient_token": "pt-demo-006",
+      "bed_id": "bed-gen-04",
+      "department_id": null,
+      "admitted_at": "2026-09-06T02:52:54.858435+00:00",
+      "expected_discharge_at": null,
+      "status": "admitted",
+      "synced_at": "2026-09-09T20:52:54.858441+00:00",
+      "discharge_ready": null,
+      "discharge_blocked_reason": null,
+      "transfer_pending": false
+    },
+    {
+      "id": "adm-bed-gen-06",
+      "patient_token": "pt-demo-007",
+      "bed_id": "bed-gen-06",
+      "department_id": null,
+      "admitted_at": "2026-09-05T06:52:54.858448+00:00",
+      "expected_discharge_at": null,
+      "status": "admitted",
+      "synced_at": "2026-09-09T20:52:54.858474+00:00",
+      "discharge_ready": null,
+      "discharge_blocked_reason": null,
+      "transfer_pending": false
+    },
+    {
+      "id": "adm-bed-prv-02",
+      "patient_token": "pt-demo-008",
+      "bed_id": "bed-prv-02",
+      "department_id": null,
+      "admitted_at": "2026-09-04T10:52:54.858491+00:00",
+      "expected_discharge_at": null,
+      "status": "admitted",
+      "synced_at": "2026-09-09T20:52:54.858501+00:00",
+      "discharge_ready": null,
+      "discharge_blocked_reason": null,
+      "transfer_pending": false
+    },
+    {
+      "id": "adm-bed-prv-04",
+      "patient_token": "pt-demo-009",
+      "bed_id": "bed-prv-04",
+      "department_id": null,
+      "admitted_at": "2026-09-03T14:52:54.858509+00:00",
+      "expected_discharge_at": null,
+      "status": "admitted",
+      "synced_at": "2026-09-09T20:52:54.858518+00:00",
+      "discharge_ready": null,
+      "discharge_blocked_reason": null,
+      "transfer_pending": false
+    }
+  ]
+}

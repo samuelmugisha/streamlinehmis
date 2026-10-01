@@ -1,0 +1,5167 @@
+{
+  "Location": [
+    {
+      "resourceType": "Location",
+      "id": "bed-icu-01",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed ICU-01 \u2014 ICU (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "ICU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "ICU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-icu-01"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "ICU-01",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-icu-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed ICU-02 \u2014 ICU (Occupied)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "ICU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "ICU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Occupied"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-icu-02"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "O",
+        "display": "Occupied"
+      },
+      "name": "ICU-02",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-icu-03",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed ICU-03 \u2014 ICU (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "ICU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "ICU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-icu-03"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "ICU-03",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-icu-04",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed ICU-04 \u2014 ICU (Occupied)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "ICU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "ICU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Occupied"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-icu-04"
+        }
+      ],
+      "status": "inactive",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "O",
+        "display": "Occupied"
+      },
+      "name": "ICU-04",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-pcu-01",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed PCU-01 \u2014 PCU (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "PCU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "PCU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-pcu-01"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "PCU-01",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-pcu-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed PCU-02 \u2014 PCU (Occupied)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "PCU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "PCU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Occupied"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-pcu-02"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "O",
+        "display": "Occupied"
+      },
+      "name": "PCU-02",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-pcu-03",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed PCU-03 \u2014 PCU (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "PCU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "PCU"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-pcu-03"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "PCU-03",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-er-01",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed ER-01 \u2014 Emergency (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "Emergency"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "ER"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-er-01"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "ER-01",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-er-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed ER-02 \u2014 Emergency (Occupied)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "Emergency"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "ER"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Occupied"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-er-02"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "O",
+        "display": "Occupied"
+      },
+      "name": "ER-02",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-er-03",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed ER-03 \u2014 Emergency (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "Emergency"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "ER"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-er-03"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "ER-03",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-gen-01",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed GWA-01 \u2014 General Ward A (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "General Ward A"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "General"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-gen-01"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "GWA-01",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-gen-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed GWA-02 \u2014 General Ward A (Occupied)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "General Ward A"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "General"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Occupied"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-gen-02"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "O",
+        "display": "Occupied"
+      },
+      "name": "GWA-02",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-gen-03",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed GWA-03 \u2014 General Ward A (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "General Ward A"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "General"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-gen-03"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "GWA-03",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-gen-04",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed GWB-01 \u2014 General Ward B (Occupied)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "General Ward B"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "General"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Occupied"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-gen-04"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "O",
+        "display": "Occupied"
+      },
+      "name": "GWB-01",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-gen-05",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed GWB-02 \u2014 General Ward B (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "General Ward B"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "General"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-gen-05"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "GWB-02",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-gen-06",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed GWB-03 \u2014 General Ward B (Occupied)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "General Ward B"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "General"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Occupied"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-gen-06"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "O",
+        "display": "Occupied"
+      },
+      "name": "GWB-03",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-prv-01",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed PVT-01 \u2014 Private Wing (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "Private Wing"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "Private"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-prv-01"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "PVT-01",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-prv-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed PVT-02 \u2014 Private Wing (Occupied)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "Private Wing"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "Private"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Occupied"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-prv-02"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "O",
+        "display": "Occupied"
+      },
+      "name": "PVT-02",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-prv-03",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed PVT-03 \u2014 Private Wing (Available)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "Private Wing"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "Private"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Available"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-prv-03"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "U",
+        "display": "Unoccupied"
+      },
+      "name": "PVT-03",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    },
+    {
+      "resourceType": "Location",
+      "id": "bed-prv-04",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Bed PVT-04 \u2014 Private Wing (Occupied)</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-ward",
+          "valueString": "Private Wing"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-room-type",
+          "valueString": "Private"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-branch-id",
+          "valueString": "branch-main"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/bed-raw-status",
+          "valueString": "Occupied"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/bed",
+          "value": "bed-prv-04"
+        }
+      ],
+      "status": "active",
+      "operationalStatus": {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0116",
+        "code": "O",
+        "display": "Occupied"
+      },
+      "name": "PVT-04",
+      "mode": "instance",
+      "form": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+            "code": "bd",
+            "display": "Bed"
+          }
+        ]
+      }
+    }
+  ],
+  "Encounter": [
+    {
+      "resourceType": "Encounter",
+      "id": "adm-bed-icu-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Inpatient admission adm-bed-icu-02 \u2014 in-progress</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-admitted-at",
+          "valueString": "2026-09-09T14:15:34.020919+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-raw-status",
+          "valueString": "admitted"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/admission",
+          "value": "adm-bed-icu-02"
+        }
+      ],
+      "status": "in-progress",
+      "class": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "IMP",
+              "display": "inpatient encounter"
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "reference": "Patient/pt-demo-001"
+      },
+      "actualPeriod": {
+        "start": "2026-09-09T14:15:34.020919Z"
+      },
+      "location": [
+        {
+          "location": {
+            "reference": "Location/bed-icu-02"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Encounter",
+      "id": "adm-bed-icu-04",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Inpatient admission adm-bed-icu-04 \u2014 in-progress</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-admitted-at",
+          "valueString": "2026-09-09T02:15:34.038513+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-raw-status",
+          "valueString": "admitted"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/admission",
+          "value": "adm-bed-icu-04"
+        }
+      ],
+      "status": "in-progress",
+      "class": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "IMP",
+              "display": "inpatient encounter"
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "reference": "Patient/pt-demo-002"
+      },
+      "actualPeriod": {
+        "start": "2026-09-09T02:15:34.038513Z"
+      },
+      "location": [
+        {
+          "location": {
+            "reference": "Location/bed-icu-04"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Encounter",
+      "id": "adm-bed-pcu-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Inpatient admission adm-bed-pcu-02 \u2014 in-progress</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-admitted-at",
+          "valueString": "2026-09-08T14:15:34.039812+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-raw-status",
+          "valueString": "admitted"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/admission",
+          "value": "adm-bed-pcu-02"
+        }
+      ],
+      "status": "in-progress",
+      "class": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "IMP",
+              "display": "inpatient encounter"
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "reference": "Patient/pt-demo-003"
+      },
+      "actualPeriod": {
+        "start": "2026-09-08T14:15:34.039812Z"
+      },
+      "location": [
+        {
+          "location": {
+            "reference": "Location/bed-pcu-02"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Encounter",
+      "id": "adm-bed-er-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Inpatient admission adm-bed-er-02 \u2014 in-progress</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-admitted-at",
+          "valueString": "2026-09-07T18:15:34.040966+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-raw-status",
+          "valueString": "admitted"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/admission",
+          "value": "adm-bed-er-02"
+        }
+      ],
+      "status": "in-progress",
+      "class": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "IMP",
+              "display": "inpatient encounter"
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "reference": "Patient/pt-demo-004"
+      },
+      "actualPeriod": {
+        "start": "2026-09-07T18:15:34.040966Z"
+      },
+      "location": [
+        {
+          "location": {
+            "reference": "Location/bed-er-02"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Encounter",
+      "id": "adm-bed-gen-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Inpatient admission adm-bed-gen-02 \u2014 in-progress</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-admitted-at",
+          "valueString": "2026-09-06T20:15:34.041957+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-raw-status",
+          "valueString": "admitted"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/admission",
+          "value": "adm-bed-gen-02"
+        }
+      ],
+      "status": "in-progress",
+      "class": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "IMP",
+              "display": "inpatient encounter"
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "reference": "Patient/pt-demo-005"
+      },
+      "actualPeriod": {
+        "start": "2026-09-06T20:15:34.041957Z"
+      },
+      "location": [
+        {
+          "location": {
+            "reference": "Location/bed-gen-02"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Encounter",
+      "id": "adm-bed-gen-04",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Inpatient admission adm-bed-gen-04 \u2014 in-progress</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-admitted-at",
+          "valueString": "2026-09-06T02:15:34.042756+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-raw-status",
+          "valueString": "admitted"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/admission",
+          "value": "adm-bed-gen-04"
+        }
+      ],
+      "status": "in-progress",
+      "class": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "IMP",
+              "display": "inpatient encounter"
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "reference": "Patient/pt-demo-006"
+      },
+      "actualPeriod": {
+        "start": "2026-09-06T02:15:34.042756Z"
+      },
+      "location": [
+        {
+          "location": {
+            "reference": "Location/bed-gen-04"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Encounter",
+      "id": "adm-bed-gen-06",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Inpatient admission adm-bed-gen-06 \u2014 in-progress</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-admitted-at",
+          "valueString": "2026-09-05T06:15:34.045427+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-raw-status",
+          "valueString": "admitted"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/admission",
+          "value": "adm-bed-gen-06"
+        }
+      ],
+      "status": "in-progress",
+      "class": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "IMP",
+              "display": "inpatient encounter"
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "reference": "Patient/pt-demo-007"
+      },
+      "actualPeriod": {
+        "start": "2026-09-05T06:15:34.045427Z"
+      },
+      "location": [
+        {
+          "location": {
+            "reference": "Location/bed-gen-06"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Encounter",
+      "id": "adm-bed-prv-02",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Inpatient admission adm-bed-prv-02 \u2014 in-progress</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-admitted-at",
+          "valueString": "2026-09-04T10:15:34.046518+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-raw-status",
+          "valueString": "admitted"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/admission",
+          "value": "adm-bed-prv-02"
+        }
+      ],
+      "status": "in-progress",
+      "class": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "IMP",
+              "display": "inpatient encounter"
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "reference": "Patient/pt-demo-008"
+      },
+      "actualPeriod": {
+        "start": "2026-09-04T10:15:34.046518Z"
+      },
+      "location": [
+        {
+          "location": {
+            "reference": "Location/bed-prv-02"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Encounter",
+      "id": "adm-bed-prv-04",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Inpatient admission adm-bed-prv-04 \u2014 in-progress</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-admitted-at",
+          "valueString": "2026-09-03T14:15:34.047603+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/admission-raw-status",
+          "valueString": "admitted"
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/admission",
+          "value": "adm-bed-prv-04"
+        }
+      ],
+      "status": "in-progress",
+      "class": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+              "code": "IMP",
+              "display": "inpatient encounter"
+            }
+          ]
+        }
+      ],
+      "subject": {
+        "reference": "Patient/pt-demo-009"
+      },
+      "actualPeriod": {
+        "start": "2026-09-03T14:15:34.047603Z"
+      },
+      "location": [
+        {
+          "location": {
+            "reference": "Location/bed-prv-04"
+          }
+        }
+      ]
+    }
+  ],
+  "Observation": [
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-02.8310-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Body temperature: 38.4 Cel</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.048749+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": true
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-02.8310-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8310-5",
+            "display": "Body temperature"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-001"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.048749Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 38.4,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "AA",
+              "display": "Critical abnormal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-02.8867-4",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Heart rate: 118 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.048749+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": true
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-02.8867-4"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-001"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.048749Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 118,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "AA",
+              "display": "Critical abnormal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-02.9279-1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Respiratory rate: 24 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.048749+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": true
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-02.9279-1"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-001"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.048749Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 24,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "AA",
+              "display": "Critical abnormal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-02.59408-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Oxygen saturation in Arterial blood by Pulse oximetry: 91 %</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.048749+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": true
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-02.59408-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2708-6",
+            "display": "Oxygen saturation in Arterial blood"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-001"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.048749Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 91,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      },
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "AA",
+              "display": "Critical abnormal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-02.9269-2",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Glasgow coma score total: 13</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.048749+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": true
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-02.9269-2"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9269-2",
+            "display": "Glasgow coma score total"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-001"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.048749Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueInteger": 13,
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "AA",
+              "display": "Critical abnormal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-02.85354-9",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure panel with all children optional: Systolic blood pressure 148 mm[Hg], Diastolic blood pressure 92 mm[Hg]</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.048749+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": true
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-02.85354-9"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-001"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.048749Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "interpretation": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+              "code": "AA",
+              "display": "Critical abnormal"
+            }
+          ]
+        }
+      ],
+      "component": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 148,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 92,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-04.8310-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Body temperature: 37.0 Cel</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.074607+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-04.8310-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8310-5",
+            "display": "Body temperature"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-002"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.074607Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 37,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-04.8867-4",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Heart rate: 66 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.074607+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-04.8867-4"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-002"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.074607Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 66,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-04.9279-1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Respiratory rate: 19 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.074607+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-04.9279-1"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-002"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.074607Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 19,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-04.59408-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Oxygen saturation in Arterial blood by Pulse oximetry: 97 %</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.074607+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-04.59408-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2708-6",
+            "display": "Oxygen saturation in Arterial blood"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-002"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.074607Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 97,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-04.9269-2",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Glasgow coma score total: 15</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.074607+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-04.9269-2"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9269-2",
+            "display": "Glasgow coma score total"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-002"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.074607Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueInteger": 15
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-icu-04.85354-9",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure panel with all children optional: Systolic blood pressure 115 mm[Hg], Diastolic blood pressure 75 mm[Hg]</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.074607+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-icu-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-icu-04.85354-9"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-002"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.074607Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "component": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 115,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 75,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-pcu-02.8310-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Body temperature: 36.5 Cel</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.081403+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-pcu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-pcu-02.8310-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8310-5",
+            "display": "Body temperature"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-003"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.081403Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 36.5,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-pcu-02.8867-4",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Heart rate: 69 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.081403+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-pcu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-pcu-02.8867-4"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-003"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.081403Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 69,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-pcu-02.9279-1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Respiratory rate: 19 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.081403+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-pcu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-pcu-02.9279-1"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-003"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.081403Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 19,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-pcu-02.59408-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Oxygen saturation in Arterial blood by Pulse oximetry: 99 %</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.081403+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-pcu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-pcu-02.59408-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2708-6",
+            "display": "Oxygen saturation in Arterial blood"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-003"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.081403Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 99,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-pcu-02.9269-2",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Glasgow coma score total: 15</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.081403+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-pcu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-pcu-02.9269-2"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9269-2",
+            "display": "Glasgow coma score total"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-003"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.081403Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueInteger": 15
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-pcu-02.85354-9",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure panel with all children optional: Systolic blood pressure 110 mm[Hg], Diastolic blood pressure 81 mm[Hg]</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.081403+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-pcu-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-pcu-02.85354-9"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-003"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.081403Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "component": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 110,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 81,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-er-02.8310-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Body temperature: 36.4 Cel</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.090495+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-er-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-er-02.8310-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8310-5",
+            "display": "Body temperature"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-004"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.090495Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 36.4,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-er-02.8867-4",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Heart rate: 68 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.090495+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-er-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-er-02.8867-4"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-004"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.090495Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 68,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-er-02.9279-1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Respiratory rate: 15 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.090495+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-er-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-er-02.9279-1"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-004"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.090495Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 15,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-er-02.59408-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Oxygen saturation in Arterial blood by Pulse oximetry: 96 %</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.090495+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-er-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-er-02.59408-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2708-6",
+            "display": "Oxygen saturation in Arterial blood"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-004"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.090495Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 96,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-er-02.9269-2",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Glasgow coma score total: 15</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.090495+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-er-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-er-02.9269-2"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9269-2",
+            "display": "Glasgow coma score total"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-004"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.090495Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueInteger": 15
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-er-02.85354-9",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure panel with all children optional: Systolic blood pressure 124 mm[Hg], Diastolic blood pressure 68 mm[Hg]</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.090495+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-er-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-er-02.85354-9"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-004"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.090495Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "component": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 124,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 68,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-02.8310-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Body temperature: 36.9 Cel</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.096872+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-02.8310-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8310-5",
+            "display": "Body temperature"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-005"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.096872Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 36.9,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-02.8867-4",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Heart rate: 88 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.096872+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-02.8867-4"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-005"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.096872Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 88,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-02.9279-1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Respiratory rate: 19 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.096872+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-02.9279-1"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-005"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.096872Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 19,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-02.59408-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Oxygen saturation in Arterial blood by Pulse oximetry: 99 %</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.096872+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-02.59408-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2708-6",
+            "display": "Oxygen saturation in Arterial blood"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-005"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.096872Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 99,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-02.9269-2",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Glasgow coma score total: 15</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.096872+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-02.9269-2"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9269-2",
+            "display": "Glasgow coma score total"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-005"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.096872Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueInteger": 15
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-02.85354-9",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure panel with all children optional: Systolic blood pressure 121 mm[Hg], Diastolic blood pressure 75 mm[Hg]</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.096872+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-02.85354-9"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-005"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.096872Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "component": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 121,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 75,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-04.8310-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Body temperature: 36.8 Cel</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.105376+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-04.8310-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8310-5",
+            "display": "Body temperature"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-006"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.105376Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 36.8,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-04.8867-4",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Heart rate: 74 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.105376+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-04.8867-4"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-006"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.105376Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 74,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-04.9279-1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Respiratory rate: 20 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.105376+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-04.9279-1"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-006"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.105376Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 20,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-04.59408-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Oxygen saturation in Arterial blood by Pulse oximetry: 95 %</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.105376+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-04.59408-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2708-6",
+            "display": "Oxygen saturation in Arterial blood"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-006"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.105376Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 95,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-04.9269-2",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Glasgow coma score total: 15</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.105376+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-04.9269-2"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9269-2",
+            "display": "Glasgow coma score total"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-006"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.105376Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueInteger": 15
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-04.85354-9",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure panel with all children optional: Systolic blood pressure 132 mm[Hg], Diastolic blood pressure 73 mm[Hg]</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.105376+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-04.85354-9"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-006"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.105376Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "component": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 132,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 73,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-06.8310-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Body temperature: 37.0 Cel</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.117165+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-06"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-06.8310-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8310-5",
+            "display": "Body temperature"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-007"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.117165Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 37,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-06.8867-4",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Heart rate: 76 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.117165+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-06"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-06.8867-4"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-007"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.117165Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 76,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-06.9279-1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Respiratory rate: 16 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.117165+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-06"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-06.9279-1"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-007"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.117165Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 16,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-06.59408-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Oxygen saturation in Arterial blood by Pulse oximetry: 96 %</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.117165+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-06"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-06.59408-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2708-6",
+            "display": "Oxygen saturation in Arterial blood"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-007"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.117165Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 96,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-06.9269-2",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Glasgow coma score total: 15</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.117165+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-06"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-06.9269-2"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9269-2",
+            "display": "Glasgow coma score total"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-007"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.117165Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueInteger": 15
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-gen-06.85354-9",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure panel with all children optional: Systolic blood pressure 114 mm[Hg], Diastolic blood pressure 78 mm[Hg]</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.117165+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-gen-06"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-gen-06.85354-9"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-007"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.117165Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "component": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 114,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 78,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-02.8310-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Body temperature: 36.5 Cel</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.141526+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-02.8310-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8310-5",
+            "display": "Body temperature"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-008"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.141526Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 36.5,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-02.8867-4",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Heart rate: 78 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.141526+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-02.8867-4"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-008"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.141526Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 78,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-02.9279-1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Respiratory rate: 14 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.141526+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-02.9279-1"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-008"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.141526Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 14,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-02.59408-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Oxygen saturation in Arterial blood by Pulse oximetry: 97 %</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.141526+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-02.59408-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2708-6",
+            "display": "Oxygen saturation in Arterial blood"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-008"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.141526Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 97,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-02.9269-2",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Glasgow coma score total: 15</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.141526+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-02.9269-2"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9269-2",
+            "display": "Glasgow coma score total"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-008"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.141526Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueInteger": 15
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-02.85354-9",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure panel with all children optional: Systolic blood pressure 119 mm[Hg], Diastolic blood pressure 76 mm[Hg]</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.141526+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-02"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-02.85354-9"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-008"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.141526Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "component": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 119,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 76,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-04.8310-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Body temperature: 37.1 Cel</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.165627+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-04.8310-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8310-5",
+            "display": "Body temperature"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-009"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.165627Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 37.1,
+        "unit": "Cel",
+        "system": "http://unitsofmeasure.org",
+        "code": "Cel"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-04.8867-4",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Heart rate: 89 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.165627+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-04.8867-4"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "8867-4",
+            "display": "Heart rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-009"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.165627Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 89,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-04.9279-1",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Respiratory rate: 17 /min</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.165627+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-04.9279-1"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9279-1",
+            "display": "Respiratory rate"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-009"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.165627Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 17,
+        "unit": "/min",
+        "system": "http://unitsofmeasure.org",
+        "code": "/min"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-04.59408-5",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Oxygen saturation in Arterial blood by Pulse oximetry: 99 %</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.165627+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-04.59408-5"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "59408-5",
+            "display": "Oxygen saturation in Arterial blood by Pulse oximetry"
+          },
+          {
+            "system": "http://loinc.org",
+            "code": "2708-6",
+            "display": "Oxygen saturation in Arterial blood"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-009"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.165627Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueQuantity": {
+        "value": 99,
+        "unit": "%",
+        "system": "http://unitsofmeasure.org",
+        "code": "%"
+      }
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-04.9269-2",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Glasgow coma score total: 15</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.165627+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-04.9269-2"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "9269-2",
+            "display": "Glasgow coma score total"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-009"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.165627Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "valueInteger": 15
+    },
+    {
+      "resourceType": "Observation",
+      "id": "vit-adm-bed-prv-04.85354-9",
+      "text": {
+        "status": "generated",
+        "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Blood pressure panel with all children optional: Systolic blood pressure 111 mm[Hg], Diastolic blood pressure 80 mm[Hg]</div>"
+      },
+      "extension": [
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-recorded-at",
+          "valueString": "2026-09-09T19:15:34.165627+00:00"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-admission-id",
+          "valueString": "adm-bed-prv-04"
+        },
+        {
+          "url": "https://hospilot.carer.ai/fhir/StructureDefinition/vital-is-critical",
+          "valueBoolean": false
+        }
+      ],
+      "identifier": [
+        {
+          "system": "http://localhost:8002/fhir/identifier/vital",
+          "value": "vit-adm-bed-prv-04.85354-9"
+        }
+      ],
+      "status": "final",
+      "category": [
+        {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/observation-category",
+              "code": "vital-signs"
+            }
+          ]
+        }
+      ],
+      "code": {
+        "coding": [
+          {
+            "system": "http://loinc.org",
+            "code": "85354-9",
+            "display": "Blood pressure panel with all children optional"
+          }
+        ]
+      },
+      "subject": {
+        "reference": "Patient/pt-demo-009"
+      },
+      "effectiveDateTime": "2026-09-09T19:15:34.165627Z",
+      "performer": [
+        {
+          "reference": "Organization/source-hospilot"
+        }
+      ],
+      "component": [
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8480-6",
+                "display": "Systolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 111,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        },
+        {
+          "code": {
+            "coding": [
+              {
+                "system": "http://loinc.org",
+                "code": "8462-4",
+                "display": "Diastolic blood pressure"
+              }
+            ]
+          },
+          "valueQuantity": {
+            "value": 80,
+            "unit": "mm[Hg]",
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]"
+          }
+        }
+      ]
+    }
+  ]
+}
